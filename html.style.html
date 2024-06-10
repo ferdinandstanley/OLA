@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ola's Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="coffeelogo.jpg" alt="Coffee Shop Logo" class="logo">
+            <h1>Ola's Coffee Shop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <img src="aboutmycoffeeshop.jpg" alt="About Coffee Shop">
+            <p>Welcome to our world-class coffee shop where we serve the best coffee and make our customers feel at home.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="espresso.jpg" alt="Espresso">
+                    <h3>Espresso</h3>
+                    <p>Smooth, rich, and tasty espresso.</p>
+                </div>
+                <div class="product">
+                    <img src="cappuccino.jpg" alt="Cappuccino">
+                    <h3>Cappuccino</h3>
+                    <p>Delicious cappuccino made with frothy milk.</p>
+                </div>
+                <div class="product">
+                    <img src="latte.jpg" alt="Latte">
+                    <h3>Latte</h3>
+                    <p>Smooth and creamy latte.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events">
+        <div class="container">
+            <h2>Anticipated Events</h2>
+            <p>Come join us on weekend nights as we gather together to have some coffee and read some poetry. All coffee will be 50% off.</p>
+            <img src="mycoffeeshopevents.jpg" alt="Events at Coffee Shop">
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ola's Coffee Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
